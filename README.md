@@ -36,7 +36,7 @@ Copy `example.env` to `.env` and fill it with your credentials.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sadew451/TGVCPlayer)
 
-## Get Your String Session By [Pyrogram](https://t.me/StringSessionGenRobot)
+## Get Your String Session By [Pyrogram](https://t.me/SDStringSessonGenbot)
 ## Commands
 
 | Command | Description                                          |
