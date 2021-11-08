@@ -1,8 +1,8 @@
 # TG Music Player
 ## Requirements
 
-- FFmpeg
-- Python 3.7+
+- `FFmpeg`
+- `Python 3.7+`
 
 ## Deployment
 
@@ -38,16 +38,6 @@ Copy `example.env` to `.env` and fill it with your credentials.
 
 ## Get Your String Session By [Pyrogram](https://t.me/SDStringSessonGenbot)
 ## Commands
-
-| Command | Description                                          |
-| ------- | ---------------------------------------------------- |
-| /play   | play the replied audio file or YouTube video         |
-| /pause  | pause the audio stream                               |
-| /resume | resume the audio stream                              |
-| /skip   | skip the current audio stream                        |
-| /mute   | mute the userbot                                     |
-| /unmute | unmute the userbot                                   |
-| /stop   | clear the queue and remove the userbot from the call |
 
 ## License
 
