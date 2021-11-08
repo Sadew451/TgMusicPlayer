@@ -9,15 +9,15 @@ STICKER = "CAACAgIAAxkBAAEBSZ9hiOi5RHnnBvsUllnHX3evLOW1QgACBQADwDZPE_lqX5qCa011I
 async def start(_, message: Message):
     await message.reply_sticker(STICKER)
     await message.reply_text(
-        f"""👋 Hey, I am an Telegram Groups Music Player🎶, I let you play music in your group's voice chat.
+        f"""👋 Hey, I am an Telegram Groups Music Player **{message.from_user.first_name }**, I let you play music in your group's voice chat.
 
-`/play` - *Play the replied audio file or YouTube video* 
-`/pause` -  *Pause the audio stream*
-`/resume` - *Resume the audio stream*
-`/skip` -  *Skip the current audio stream*
-`/mute` - *Mute the user bot*
-`/unmute` - *Unmute the userbot*
-`/stop` - *Clear the queue and remove the userbot from the call*
+`/play` - Play the replied audio file or YouTube video
+`/pause` -  Pause the audio stream
+`/resume` - Resume the audio stream
+`/skip` -  Skip the current audio stream
+`/mute` - Mute the user bot
+`/unmute` - Unmute the userbot
+`/stop` - Clear the queue and remove the userbot from the call
 
 *Join* @SDBotsz
         """,
