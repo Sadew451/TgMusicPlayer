@@ -20,7 +20,6 @@ Copy `example.env` to `.env` and fill it with your credentials.
    ```bash
    python main.py
    ```
-
 ### Docker
 
 1. Build:
