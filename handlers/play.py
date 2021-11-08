@@ -19,7 +19,7 @@ from helpers.decorators import errors
 async def play(_, message: Message):
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
 
-    res = await message.reply_text("🚀 Processing......")
+    res = await message.reply_text("🧨 Processing......")
 
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
@@ -56,7 +56,7 @@ async def play(_, message: Message):
                         break
 
         if offset in (None,):
-            await res.edit_text("You did not give me anything to play 😆")
+            await res.edit_text("`You did not give me anything to play`")
             return
 
         url = text[offset:offset + length]
@@ -66,5 +66,5 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file)
         await res.edit_text(f"✅ Queued at position {position} 🎧")
     else:
-        await res.edit_text("🎶 Playing...")
+        await res.edit_text("`🎶 Playing...`")
         await callsmusic.set_stream(message.chat.id, file)
