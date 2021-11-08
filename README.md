@@ -43,4 +43,4 @@ Copy `example.env` to `.env` and fill it with your credentials.
 
 ### GNU Affero General Public License v3.0
 
-[Read more](http://www.gnu.org/licenses/#AGPL)
+[Read more](t.me/SDBOTs_Inifinity)
