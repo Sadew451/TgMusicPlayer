@@ -3,9 +3,11 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 from helpers.filters import other_filters2
 
+STICKER = "CAACAgUAAxkBAAEEZSthiO6oerU_AvxFgA_IouBIxyNqHQACvgMAAj6WYFfRN1A3SsPkxSIE"
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
+    await message.reply_sticker(STICKER)
     await message.reply_text(
         f"""I am an Telegram Groups Music Player🎶, I let you play music in your group's voice chat.
 
