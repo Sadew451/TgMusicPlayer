@@ -19,7 +19,7 @@ async def start(_, message: Message):
 `/unmute` - Unmute the userbot
 `/stop` - Clear the queue and remove the userbot from the call
 
-*Join* @SDBotsz
+Join @SDBotsz. 🔥
         """,
         reply_markup=InlineKeyboardMarkup(
             [
