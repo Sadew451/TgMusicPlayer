@@ -3,7 +3,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 from helpers.filters import other_filters2
 
-STICKER = "CAACAgIAAxkBAAEBSZ9hiOi5RHnnBvsUllnHX3evLOW1QgACBQADwDZPE_lqX5qCa011IgQ"
+STICKER = "CAACAgUAAxkBAAEBSiphiQvgoSco_PZ69hZOb6LmHi7y5wACrgUAAqcESVQjjAq485SvXyIE"
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
