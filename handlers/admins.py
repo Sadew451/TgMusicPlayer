@@ -16,7 +16,7 @@ async def pause(_, message: Message):
     if callsmusic.pause(message.chat.id):
         await message.reply_text(" ⏸ Paused!")
     else:
-        await message.reply_text("Nothing is playing ☹️")
+        await message.reply_text("Nothing is Playing")
 
 
 @Client.on_message(command("resume") & other_filters)
@@ -26,7 +26,7 @@ async def resume(_, message: Message):
     if callsmusic.resume(message.chat.id):
         await message.reply_text(" ▶️ Resumed ")
     else:
-        await message.reply_text("Nothing is paused 🤷‍♂️")
+        await message.reply_text("Nothing is Paused")
 
 
 @Client.on_message(command("stop") & other_filters)
@@ -34,7 +34,7 @@ async def resume(_, message: Message):
 @authorized_users_only
 async def stop(_, message: Message):
     if message.chat.id not in callsmusic.active_chats:
-        await message.reply_text("Nothing is playing ☹️")
+        await message.reply_text("Nothing is Playing")
     else:
         try:
             queues.clear(message.chat.id)
@@ -50,7 +50,7 @@ async def stop(_, message: Message):
 @authorized_users_only
 async def skip(_, message: Message):
     if message.chat.id not in callsmusic.active_chats:
-        await message.reply_text("Nothing is playing ☹️")
+        await message.reply_text("Nothing is Playing")
     else:
         queues.task_done(message.chat.id)
 
