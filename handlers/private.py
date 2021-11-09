@@ -14,7 +14,7 @@ async def start(_, message: Message):
 **Commands** [Here](telegra.ph/A-Simple-Group-Music-player-bot-by-SDBotsz-11-09-2)
 
 Join @SDBotsz. 🔥
-        """,
+""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
