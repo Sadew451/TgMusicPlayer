@@ -1,4 +1,4 @@
-from pyrogram import Client
+from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 from helpers.filters import other_filters2
