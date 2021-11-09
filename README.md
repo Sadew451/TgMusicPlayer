@@ -33,9 +33,14 @@ Copy `example.env` to `.env` and fill it with your credentials.
    docker run --env-file .env musicplayer
    ```
 
-### Heroku
+<details>
+  <summary> Deploy on Heroku </summary>
+  <br/>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sadew451/TgMusicPlayer)
+
+</details>
+
 
 ## Get Your String Session By [Pyrogram](https://t.me/SDStringSessonGenbot)
 ## Commands
