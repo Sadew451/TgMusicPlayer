@@ -31,7 +31,7 @@ BUTTONS = InlineKeyboardMarkup(
 async def start(_, message: Message):
     await message.reply_sticker(STICKER)
     await message.reply_text(
-        TEXT,
+        text=TEXT,
         reply_markup=BUTTONS,
         disable_web_page_preview=True
     )
