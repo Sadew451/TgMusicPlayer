@@ -34,6 +34,6 @@ Join @SDBotsz. 🔥
                         "Developer 👩‍💻", url="https://t.me/Itz_Sadew"
                     )
                 ]
-            ]
+            ],
         )
     )
