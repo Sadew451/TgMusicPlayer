@@ -5,18 +5,15 @@ from helpers.filters import other_filters2
 
 STICKER = "CAACAgQAAx0CQ2C8OgACsqNhiisoWUQROohUrpaGzDsHsot3dQACVxYAAtqjlSznBlAxygdMwyIE"
 
-@Client.on_message(other_filters2)
-async def start(_, message: Message):
-    await message.reply_sticker(STICKER)
-    await message.reply_text(
-    disable_web_page_preview=True
-        f"""👋 Hey [{}](tg://user?id={}), I am an Telegram Groups Music Player, I let you play music in your group's voice chat.
+TEXT = f"""
+👋 Hey [{}](tg://user?id={}), I am an Telegram Groups Music Player, I let you play music in your group's voice chat.
 
 **Commands** [Here](telegra.ph/A-Simple-Group-Music-player-bot-by-SDBotsz-11-09-2)
 
 Join @SDBotsz. 🔥
-        """,
-        reply_markup=InlineKeyboardMarkup(
+"""
+
+BUTTONS = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
@@ -29,3 +26,13 @@ Join @SDBotsz. 🔥
             ]
         )
     )
+
+@Client.on_message(other_filters2)
+async def start(_, message: Message):
+    await message.reply_sticker(STICKER)
+    await message.reply_text(
+        TEXT,
+        reply_markup=BUTTONS,
+        disable_web_page_preview=True
+    )
+        
