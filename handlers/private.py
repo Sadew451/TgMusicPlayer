@@ -9,7 +9,7 @@ STICKER = "CAACAgQAAx0CQ2C8OgACsqNhiisoWUQROohUrpaGzDsHsot3dQACVxYAAtqjlSznBlAxy
 async def start(_, message: Message):
     await message.reply_sticker(STICKER)
     await message.reply_text(
-        f"""👋 Hey `{message.from_user.first_name }`, I am an Telegram Groups Music Player, I let you play music in your group's voice chat.
+        f"""👋 Hey [{}](tg://user?id={}), I am an Telegram Groups Music Player, I let you play music in your group's voice chat.
 
 **Commands** [Here](telegra.ph/A-Simple-Group-Music-player-bot-by-SDBotsz-11-09-2)
 
