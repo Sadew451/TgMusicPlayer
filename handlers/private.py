@@ -5,13 +5,7 @@ from helpers.filters import other_filters2
 
 STICKER = "CAACAgQAAx0CQ2C8OgACsqNhiisoWUQROohUrpaGzDsHsot3dQACVxYAAtqjlSznBlAxygdMwyIE"
 
-TEXT = f"""
-👋 Hey [{}](tg://user?id={}), I am an Telegram Groups Music Player, I let you play music in your group's voice chat.
-
-**Commands** [Here](telegra.ph/A-Simple-Group-Music-player-bot-by-SDBotsz-11-09-2)
-
-Join @SDBotsz. 🔥
-"""
+TEXT = "👋 Hey [{}](tg://user?id={}), I am an Telegram Groups Music Player, I let you play music in your group's voice chat.\n\n**Commands** [Here](telegra.ph/A-Simple-Group-Music-player-bot-by-SDBotsz-11-09-2)\n\nJoin @SDBotsz. 🔥"
 
 BUTTONS = InlineKeyboardMarkup(
             [
