@@ -26,6 +26,8 @@ Join @SDBotsz. 🔥
                 [
                     InlineKeyboardButton(
                         "Channel 🙋‍♀️", url="https://t.me/SDBOTs_inifinity"
+                    InlineKeyboardButton(
+                        "Developer 👩‍💻", url="https://t.me/Itz_Sadew"
                     ),
                     InlineKeyboardButton(
                         "Developer 👩‍💻", url="https://t.me/Itz_Sadew"
