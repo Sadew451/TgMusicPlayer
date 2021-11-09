@@ -1,4 +1,7 @@
-# TG Music Player
+"""
+A simple telegram Music Player made with python credits for pytgcalls
+
+"""
 ## Requirements
 
 - `FFmpeg`
