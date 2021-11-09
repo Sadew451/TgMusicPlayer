@@ -11,13 +11,7 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""👋 Hey **{message.from_user.first_name }**, I am an Telegram Groups Music Player, I let you play music in your group's voice chat.
 
-`/play` - Play the replied audio file or YouTube video
-`/pause` -  Pause the audio stream
-`/resume` - Resume the audio stream
-`/skip` -  Skip the current audio stream
-`/mute` - Mute the user bot
-`/unmute` - Unmute the userbot
-`/stop` - Clear the queue and remove the userbot from the call
+Commands [Here](https://telegra.ph/A-Simple-Group-Music-player-bot-by-SDBotsz-11-09)
 
 Join @SDBotsz. 🔥
         """,
