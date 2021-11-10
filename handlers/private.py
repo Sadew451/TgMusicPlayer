@@ -15,11 +15,11 @@ Join @SDBotsz. 🔥
 """
 
 START_BUTTON = InlineKeyboardMarkup(
-        [[
+        [[[
         InlineKeyboardButton('Channel', url="https://t.me/SDBOTs_inifinity"),
         InlineKeyboardButton('Group', url='https://t.me/SDBOTz')
-        InlineKeyboardButton('Group', url='https://t.me/SDBOTz')]
-        ]]
+        InlineKeyboardButton('Group', url='https://t.me/SDBOTz')
+        ]]]
   
 )
 
