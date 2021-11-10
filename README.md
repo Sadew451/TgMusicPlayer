@@ -42,7 +42,7 @@ Copy `example.env` to `.env` and fill it with your credentials.
 </details>
 
 
-## Get Your String Session By [Pyrogram](https://t.me/SDStringSessonGenbot)
+## Get Your String Session By [Pyrogram](https://replit.com/@sadew451/TGStringSession#main.py)
 ## Commands
 
 ## License
