@@ -1,3 +1,8 @@
+<h1 align="center"><b><b> Group Music Player </b></b></h1>
+
+<p align="center"><a href="https://t.me/SDBOTz"><img src="https://telegra.ph/file/d722debdc7ad2fcc96c24.png" width="400"></a></p>
+<p align="center">
+
 ```
 A simple telegram Music Player made with python credits for pytgcalls
 ```
