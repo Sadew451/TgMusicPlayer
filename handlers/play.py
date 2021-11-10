@@ -14,7 +14,7 @@ from helpers.filters import command, other_filters
 from helpers.decorators import errors
 
 
-@Client.on_message(command("play") & other_filters)
+@Client.on_message(command("splay") & other_filters)
 @errors
 async def play(_, message: Message):
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
