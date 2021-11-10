@@ -1,6 +1,6 @@
 <h1 align="center"><b><b> Group Music Player </b></b></h1>
 
-<p align="center"><a href="https://t.me/SDBOTz"><img src="https://telegra.ph/file/a8258708d0c2f8985554f.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/SDBOTz"><img src="https://telegra.ph/file/7c4dd52587d25aeb527b3.png" width="400"></a></p>
 <p align="center">
 
 ```
