@@ -9,15 +9,15 @@ STICKER = "CAACAgQAAx0CQ2C8OgACsqNhiisoWUQROohUrpaGzDsHsot3dQACVxYAAtqjlSznBlAxy
 START_TEXT = """
 👋 Hey {} I am an Telegram Groups Music Player, I let you play music in your group's voice chat.
 
-**Commands** [Here](telegra.ph/A-Simple-Group-Music-player-bot-by-SDBotsz-11-09-2)
+**Commands** [Here](telegra.ph/A-Simple-Group-Music-player-bot-by-🅐𝖚𝖏𝖑𝖆-11-09-2)
 
-Join @SDBotsz. 🔥
+Join @Urban_Chat_Group. 🔥
 """
 
 START_BUTTON = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Channel', url="https://t.me/SDBOTs_inifinity"),
-        InlineKeyboardButton('Group', url='https://t.me/SDBOTz')
+        InlineKeyboardButton('🅐𝖚𝖏𝖑𝖆 Сհατ🌾', url="https://t.me/Urban_Chat_Group"),
+        InlineKeyboardButton('❤️𝔾ℝ𝕆𝕌ℙ🤍', url='https://t.me/Punjabi_Juncation_Chat_Group')
         ]]
   
 )
